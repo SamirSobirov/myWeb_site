@@ -1,0 +1,52 @@
+/* To create media queries for different screen sizes in media.css, you can use the following code: */
+
+/* Media Query for screen width 320px */
+@media only screen and (max-width: 320px) {
+    /* CSS styles for 320px width */
+}
+
+/* Media Query for screen width 375px */
+@media only screen and (max-width: 375px) {
+    /* CSS styles for 375px width */
+}
+
+/* Media Query for screen width 425px */
+@media only screen and (max-width: 425px) {
+    /* CSS styles for 425px width */
+}
+
+/* You can add these media queries to the media.css file and define the corresponding CSS styles for each screen size. */
+@media screen and (max-width: 768px) {
+    /* CSS styles for screens with a maximum width of 768px or smaller */
+    /* Add your responsive styles here */
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* CSS styles for screens with a maximum width of 480px or smaller */
+    /* Add your responsive styles here */
+  }
+  
+  /* Add more @media queries as needed for different screen sizes */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .text-block {
+      font-size: 16px;
+    }
+  
+    /* Add more responsive styles as needed */
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      width: 100%;
+    }
+  
+    .text-block {
+      font-size: 14px;
+    }
+  
+    /* Add more responsive styles as needed */
+  }
